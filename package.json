@@ -1,0 +1,16 @@
+{
+  "author": "4ok",
+  "name": "app-test",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "eslint": "^3.0.1",
+    "eslint-config-4ok": "4ok/eslint-config-4ok",
+    "stylint": "^1.5.6",
+    "stylint-config-4ok": "4ok/stylint-config-4ok"
+  },
+  "devDependencies": {},
+  "private": true
+}
