@@ -48,7 +48,7 @@ lint: lint.stylus lint.js
 lint.stylus:
 	$(call printActionTitle,Linting stylus files)
 
-	$(NODE_MODULES_BIN_DIR)/stylint --config $(NODE_MODULES_PATH)/stylint-config-4ok/.configrc $(BEM_PATH)/blocks/
+	$(NODE_MODULES_BIN_DIR)/stylint --config $(NODE_MODULES_DIR)/stylint-config-4ok/.configrc $(BEM_PATH)/blocks/
 
 # Lint javascript files
 .PHONY: lint.js
